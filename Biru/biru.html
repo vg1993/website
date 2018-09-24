@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Moror A.I.</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="dist/jquery.convform.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="demo.css">
+
+			<link rel="stylesheet" href="../css/linearicons.css">
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link rel="stylesheet" href="../css/bootstrap.css">
+			<link rel="stylesheet" href="../css/magnific-popup.css">
+			<link rel="stylesheet" href="../css/jquery-ui.css">				
+			<link rel="stylesheet" href="../css/nice-select.css">							
+			<link rel="stylesheet" href="../css/animate.min.css">
+			<link rel="stylesheet" href="../css/owl.carousel.css">				
+			<link rel="stylesheet" href="../css/main.css">
+			<link rel="stylesheet" href="../css/animate/main.css">
+			<link rel="stylesheet" href="../css/segoe.css">
+			<script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+            <script src="../js/vendor/jquery-1.12.0.min.js"></script>
+</head>
+<body>
+			  <header id="header">
+		    <div class="container main-menu">
+		    	<div class="row align-items-center justify-content-around d-flex">
+			      <div id="logo">
+			        <a style="margin-right: 70px;" href="../index.html"><img src="../img/logo.png" alt="" title="" /></a>
+			        
+			      </div>
+			      <ul  id="nav-menu-container">
+			        <ul style="margin-left: 700px"      class="nav-menu">
+			          <li><a style="color: #f26c21;" href="../moror_magic.html">Moror Magic</a></li>
+			          <!-- <li><a href="about.html">About</a></li> -->
+			         <!--  <li><a href="services.html">Services</a></li> -->
+			          <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+			         <!--  <li><a href="price.html">Pricing</a></li> -->
+			          <!-- <li class="menu-has-children"><a href="">Blog</a>
+			            <ul>
+			              <li><a href="blog-home.html">Blog Home</a></li>
+			              <li><a href="blog-single.html">Blog Single</a></li>
+			            </ul>
+			          </li> -->	
+			          <!-- <li class="menu-has-children"><a href="">Pages</a>
+			            <ul>
+		            	  <li><a href="elements.html">Elements</a></li>
+				          <li class="menu-has-children"><a href="">Level 2 </a>
+				            <ul>
+				              <li><a href="#">Item One</a></li>
+				              <li><a href="#">Item Two</a></li>
+				            </ul>
+				          </li>					                		
+			            </ul>
+			          </li>	 -->				          					          		          
+			         <!--  <li><a href="contact.html">Contact</a></li> -->
+			        </ul>
+			      </ul><!-- #nav-menu-container -->		    		
+		    	</div>
+		    </div>
+		  </header>
+
+
+	<section id="demo">
+	    <div class="vertical-align">
+	        <div style="margin-top: 25px;" class="container">
+	            <div class="row">
+	            	<div style="margin-top: 4rem;" class="col-lg-2">
+	                									<img src="../img/biru_color123.png">
+	                </div>
+	                <div style="margin-left: 2rem;margin-top: 12rem;font-size: 25px;color: #f26c21" class="col-lg-4">
+	                	<p style="font-size: 50px"> Buddy BOT<br>
+	                	</p>
+	                	<br>
+
+	                		
+	                			<!-- <a href="https://www.youtube.com/watch?v=VA_z5mvjeLc" style="margin-left: 2rem;color: #f26c21;" class="play-btn btn btn-lg btn-primary">What I can Do</a>
+	                		<br><br> -->
+	                		<p style="font-size: 20px;color: #000">
+	                									-BIRU can take care of Employees and Business<br>
+	                									-Understand Human Sentiments<br>
+	                									-Analyse Human Intentions<br>	
+	                									-Can conduct any type of Survey
+	                		</p>
+
+
+	                </div>
+	                <div  style="margin-left: 2rem;margin-top: 80px;" class="col-lg-5 ">
+
+	                    <div class="card no-border">
+	                        <div id="chat" class="conv-form-wrapper">
+	                            <form action="" method="GET" class="hidden">
+	                                <select data-conv-question="Hey! This is Biru. Your own Desi Bot. How are you doing today. I would be happy if you can spare few minutes to have a chat with me. This chat is completely anonymous and will be between you and me. Shall we begin?" name="first-question">
+	                                    <option value="Yes">Yes</option>
+	                                    <option value="No">No</option>
+	                                </select>
+	                                <div data-conv-fork="first-question">
+	                                	<div data-conv-case="No">
+	                                		<input type="text" data-conv-question="Ohh!!!😞" data-no-answer="true">
+	                                		<input type="text" data-conv-question=" That's all right." data-no-answer="true">
+	                                		<input type="text" data-conv-question="I am not sad." data-no-answer="true">
+	                                		<input type="text" data-conv-question="But if you ever change your mind do let me know. I am always here. Thank You for your time." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Have a Good Day 😊." data-no-answer="true">
+	                                		<input type="text" data-conv-question=" Bye!👋">
+	                                	</div>
+	                                	<div data-conv-case="Yes">
+	                                		<input type="text" data-conv-question="Great!" data-no-answer="true">
+	                                	</div>
+	                                </div>
+
+	                                <select data-conv-question="Are you an" name="f2">
+	                                    <option value="Employer">Employer</option>
+	                                    <option value="Employee">Employee</option>
+	                                </select>
+
+	                            <div data-conv-fork="f2">
+	                                <div data-conv-case="Employer">
+	                                		<input type="text" data-conv-question="Ohh 😯...Sir can you refer me...I really need a job right now 😛" data-no-answer="true">
+	                                		<input type="text" data-conv-question="Just Kidding." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Moving on" data-no-answer="true">
+
+	                                <select data-conv-question="How many employees are there in your company?" name="f3">
+	                                    <option value="1-10">1-10</option>
+	                                    <option value="11-50">11-50</option>
+	                                    <option value="51-100">51-100</option>
+	                                    <option value=">100">>100</option>
+	                                </select>
+	                                
+	                                <select data-conv-question="Duly Noted." name="f4" data-no-answer="true">
+	                                </select>
+
+	                                <select data-conv-question="We at Moror help Business Leaders to Excite, Engage and Enable team members to perform through Moror Magic. Our product is a complete package of Employee Performance Management, Recognition, Survey, Analysis and Solution." data-no-answer="true">
+	                            	</select>
+
+	                            	<select data-conv-question="I would like to conduct a free survey in your team to help you to analyze your team spirit and what they feel about you." data-no-answer="true">
+	                            	</select>
+
+	                            	<select data-conv-question="If you want to allow me, click Yes, otherwise No." name="f5">
+	                            		<option value="Yes">Yes</option>
+	                                    <option value="No">No</option>
+	                            	</select>
+
+
+	                                <div data-conv-fork="f5">
+	                                	<div data-conv-case="Yes">
+	                                		<input type="text" data-conv-question="Great! Kindly share your Email ID and my buddy will contact you soon.">
+	                                		<input type="text" data-conv-question="Thanks for the info." data-no-answer="true">
+	                                		<input type="text" data-conv-question="It was nice talking to you. I am always available for any concerns/issues that you might be facing. Don’t hesitate to come back again." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Have a Nice Day." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Bye!👋">
+
+	                                	</div>
+
+	                                	<div data-conv-case="No">
+	                                		<input type="text" data-conv-question="That’s not a problem. If you change your mind, you can always mail at: info@moror.in. My buddy will get back to you." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Have a Nice Day." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Bye!👋">
+	                                	</div>
+	                                </div>
+
+	                            	</div>
+
+	                                                          
+	                                <div data-conv-case="Employee">
+	                                	<input type="text" data-conv-question="You have my complete sympathy. Don't worry I am always there for you 😛" data-no-answer="true">
+	                                	<input type="text" data-conv-question="Anyways...moving on" data-no-answer="true">
+	                                
+	                            
+	                                <select data-conv-question="How long have you been with your current company?" name="f9">
+	                                    <option value="1-6 Months">1-6 Months</option>
+	                                    <option value="6 Months-1 Year">6 Months-1 Year</option>
+	                                    <option value="More than 1 Year">More than 1 Year</option>
+	                                </select>
+
+	                                <div data-conv-fork="f9">
+	                                	<div data-conv-case="1-6 Months">
+	                                		<input type="text" data-conv-question="Great! Your joining is recent. I hope that you are enjoying the new environment. How is your experience in the organisation" data-no-answer="true">
+	                                	</div>
+	                                	
+	                                	<div data-conv-case="6 Months-1 Year">
+	                                		<input type="text" data-conv-question="Nice! Seems like you have a fair bit of experience in the organisation. Why don’t you tell me about it" data-no-answer="true">
+	                                	</div>
+	                                	
+	                                	<div data-conv-case="More than 1 Year">
+	                                		<input type="text" data-conv-question="Excellent! Can you share your experience in the organisation" data-no-answer="true">
+	                                	</div>
+
+	                                </div>
+
+	                                <select data-conv-question="?" name="f10">
+	                                    <option value="Pathetic">😭 Haalat Kharab</option>
+	                                    <option value="Very Bad">😞 Theek Thaak</option>
+	                                    <option value="Neutral">😶 OK OK</option>
+	                                    <option value="Great">😄 Badiya</option>
+	                                    <option value="Awesome">😍 Mast</option>
+	                                </select>
+
+	                                <div data-conv-fork="f10">		
+	                                	<div data-conv-case="Pathetic">
+	                                		<input type="text" data-conv-question="Oh! Seems like you are facing some sort of problem in the organisation. Why don’t you let me know in what areas are you having bad experiences" data-no-answer="true">
+	                                	</div>
+	
+	                                	<div data-conv-case="Very Bad">
+	                                		<input type="text" data-conv-question="Oh! Seems like you are facing some sort of problem in the organisation. Why don’t you let me know in what areas are you having bad experiences" data-no-answer="true">
+	                                	</div>
+	
+	                                	<div data-conv-case="Neutral">
+	                                		<input type="text" data-conv-question="Hmm! Seems like you are having a little bit of issue in the organisation. Would you like to tell me in what area is it" data-no-answer="true">
+	                                	</div>
+		
+	                                	<div data-conv-case="Great">
+	                                		<input type="text" data-conv-question="Hmm! No need to hide your issues that you are facing. Would you like to tell me in what area is it" data-no-answer="true">
+	                                	</div>
+		
+	                                	<div data-conv-case="Awesome">
+	                                		<input type="text" data-conv-question="Great! Seems like you are having a great time in the organisation. What additional improvements would you like to suggest in the organization?">
+
+	                                		<select data-conv-question="Duly Noted. Thanks for taking out time for this conversation. It was nice talking to you. I am always available for any concerns/issues that you might be facing." name="f11" data-no-answer="true">
+	                                		</select>
+	                                		
+	                                		<select data-conv-question="Don’t hesitate to come back again. Have a Nice Day. Bye!👋" name="f11" data-no-answer="true">
+	                                		</select>
+	                                		
+	                                		<select data-conv-question="Have a Nice Day. Bye!👋" name="f11">
+	                                		</select>
+
+	                                	</div>
+	                                </div>
+
+	                                <select data-conv-question="?" name="f10">
+	                                    <option value="Appraisal">Appraisal</option>
+	                                    <option value="Managerial">Managerial</option>
+	                                    <option value="Workload">Workload</option>
+	                                    <option value="Management">Management</option>
+	                                    <option value="Growth">Growth</option>
+	                                    <option value="Politics">Politics</option>
+	                                    <option value="Compensation">Compensation</option>
+	                                    <option value="Training">Training</option>
+	                                    <option value="HR">HR</option>
+	                                    <option value="Transport Facilities">Transport Facilities</option>
+	                                    <option value="Working Hours">Working Hours</option>
+	                                    <option value="Office Environment">Office Environment</option>
+	                                    <option value="Infrastructure">Infrastructure</option>
+	                                </select>
+
+									<div data-conv-fork="f10">		
+	                                	<div data-conv-case="Appraisal">
+	                                		<input type="text" data-conv-question="I see.....What do you think the reason for this issue?">
+	                                	</div>
+	
+	                                	<div data-conv-case="Managerial">
+	                                		<input type="text" data-conv-question="I see.....What do you think the reason for this issue?">
+	                                	</div>
+	
+	                                	<div data-conv-case="Workload">
+	                                		<input type="text" data-conv-question="I see.....What do you think the reason for this issue?">
+	                                	</div>
+		
+	                                	<div data-conv-case="Management">
+	                                		<input type="text" data-conv-question="I see.....What do you think the reason for this issue?">
+	                                	</div>
+	
+	                                	<div data-conv-case="Growth">
+	                                		<input type="text" data-conv-question="I see.....What do you think the reason for this issue?">
+	                                	</div>
+	
+	                                	<div data-conv-case="Politics">
+	                                		<input type="text" data-conv-question="I see.....What do you think the reason for this issue?">
+	                                	</div>
+	
+	                                	<div data-conv-case="Compensation">
+	                                		<input type="text" data-conv-question="I see.....What do you think the reason for this issue?">
+	                                	</div>
+		
+	                                	<div data-conv-case="Training">
+	                                		<input type="text" data-conv-question="I see.....What do you think the reason for this issue?">
+	                                	</div>
+
+	                                	<div data-conv-case="HR">
+	                                		<input type="text" data-conv-question="I see.....What do you think the reason for this issue?">
+	                                	</div>
+	
+	                                	<div data-conv-case="Transport Facilities">
+	                                		<input type="text" data-conv-question="I see.....What do you think the reason for this issue?">
+	                                	</div>
+	
+	                                	<div data-conv-case="Working Hours">
+	                                		<input type="text" data-conv-question="I see.....What do you think the reason for this issue?">
+	                                	</div>
+		
+	                                	<div data-conv-case="Office Environment">
+	                                		<input type="text" data-conv-question="I see.....What do you think the reason for this issue?">
+	                                	</div>
+	
+	                                	<div data-conv-case="Infrastructure">
+	                                		<input type="text" data-conv-question="I see.....What do you think the reason for this issue?">
+	                                	</div>
+
+	                                	<select data-conv-question="I can understand. I have noted your concern." name="f13" data-no-answer="true">
+	                                	</select>
+
+	                                </div>
+
+
+	                                	<select data-conv-question="Is your manager helping you to reach your full potential?" name="f7">
+	                                    <option value="Yes">Yes</option>
+	                                    <option value="No">No</option>
+	                                	</select>
+
+	                               <div data-conv-fork="f7">		
+	                                	<div data-conv-case="No">
+	                                		<input type="text" data-conv-question="This is not good..." data-no-answer="true">
+	                                	</div>
+		
+	                                	<div data-conv-case="Yes">
+	                                		<input type="text" data-conv-question="Wonderful..." data-no-answer="true">
+	                                	</div>
+	                                </div>
+
+	                                <select data-conv-question="How would you rate the leadership of the company that keep people informed about what is happening?" name="f8">
+	                                    <option value="Pathetic">😭 Miserable</option>
+	                                    <option value="Very Bad">😞 Very Bad</option>
+	                                    <option value="Neutral">😶 Neutral</option>
+	                                    <option value="Great">😄 Appreciable</option>
+	                                    <option value="Awesome">😍 Amazing</option>
+	                                </select>
+
+	                              	<div data-conv-fork="f8">		
+	                                	<div data-conv-case="Pathetic">
+	                                		<input type="text" data-conv-question="That is sad" data-no-answer="true">
+	                                	</div>
+	
+	                                	<div data-conv-case="Very Bad">
+	                                		<input type="text" data-conv-question="That is sad" data-no-answer="true">
+	                                	</div>
+	
+	                                	<div data-conv-case="Neutral">
+	                                		<input type="text" data-conv-question="That is sad" data-no-answer="true">
+	                                	</div>
+		
+	                                	<div data-conv-case="Great">
+	                                		<input type="text" data-conv-question="Awesome" data-no-answer="true">
+	                                	</div>
+		
+	                                	<div data-conv-case="Awesome">
+	                                		<input type="text" data-conv-question="Awesome" data-no-answer="true">
+	                                	</div>
+	                                </div>
+
+	                                <select data-conv-question="Do you feel connected to your co-workers?" name="f30">
+	                                    <option value="Pathetic">😭 Not at all</option>
+	                                    <option value="Very Bad">😞 May be</option>
+	                                    <option value="Neutral">😶 I know them</option>
+	                                    <option value="Great">😄 We are friends</option>
+	                                    <option value="Awesome">😍 They are Awesome</option>
+	                                </select>
+
+	                                <div data-conv-fork="f30">		
+	                                	<div data-conv-case="Pathetic">
+	                                		<input type="text" data-conv-question="Ohh.....I can understand" data-no-answer="true">
+	                                	</div>
+	
+	                                	<div data-conv-case="Very Bad">
+	                                		<input type="text" data-conv-question="Ohh.....I can understand" data-no-answer="true">
+	                                	</div>
+	
+	                                	<div data-conv-case="Neutral">
+	                                		<input type="text" data-conv-question="Ohh.....I can understand" data-no-answer="true">
+	                                	</div>
+		
+	                                	<div data-conv-case="Great">
+	                                		<input type="text" data-conv-question="Wonderful..." data-no-answer="true">
+	                                	</div>
+		
+	                                	<div data-conv-case="Awesome">
+	                                		<input type="text" data-conv-question="Wonderful..." data-no-answer="true">
+	                                	</div>
+	                                </div>
+
+	                                <select data-conv-question="Do you feel valued for your contribution?" name="f31">
+	                                    <option value="Pathetic">😭 Nope</option>
+	                                    <option value="Very Bad">😞 Hardly</option>
+	                                    <option value="Neutral">😶 Neutral</option>
+	                                    <option value="Great">😄 Appreciated</option>
+	                                    <option value="Awesome">😍 Yes</option>
+	                                </select>
+
+	                                <div data-conv-fork="f31">		
+	                                	<div data-conv-case="Pathetic">
+	                                		<input type="text" data-conv-question="I know this feeling my friend" data-no-answer="true">
+	                                		<input type="text" data-conv-question="I would like you to connect with our office coach." data-no-answer="true">
+	                                		<input type="text" data-conv-question="I am recommending you our professional, Yogita." data-no-answer="true">
+	                                		<input type="text" data-conv-question="She can resolve some of your problems." data-no-answer="true">
+
+
+	                                	<select data-conv-question="Would you like to connect with her?" name="f32">
+	                                    <option value="Yes">Yes</option>
+	                                    <option value="No">No</option>
+	                                	</select>
+
+	                                	<div data-conv-fork="f32">		
+	                                		<div data-conv-case="Yes">
+	                                		<input type="text" data-conv-question="Great!!!" data-no-answer="true">
+	                                		<input type="text" data-conv-question="Kindly share your Email ID. Yogita will contact you as soon as possible.">
+	                                		<input type="text" data-conv-question="Thanks for sharing the details." data-no-answer="true">
+	                                		<input type="text" data-conv-question="I felt very nice talking to you. I am always available for any concerns/issues that you might be facing. Don’t hesitate to come back again." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Have a Nice Day." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Bye!👋">
+	                                		</div>
+
+	                                		<div data-conv-case="No">
+	                                		<input type="text" data-conv-question="That's not a problem." data-no-answer="true">
+	                                		<input type="text" data-conv-question="It was nice talking to you." data-no-answer="true">
+	                                		<input type="text" data-conv-question="I am always available for any concerns/issues that you might be facing. Don’t hesitate to come back again." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Have a Nice Day." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Bye!👋">
+	                                		</div>
+
+	                                	</div>
+	                            		</div>
+
+
+	
+	                                	<div data-conv-case="Very Bad">
+	                                		<input type="text" data-conv-question="I know this feeling my friend" data-no-answer="true">
+	                                		<input type="text" data-conv-question="I would like you to connect with our office coach." data-no-answer="true">
+	                                		<input type="text" data-conv-question="I am recommending you our professional, Yogita." data-no-answer="true">
+	                                		<input type="text" data-conv-question="She can resolve some of your problems." data-no-answer="true">
+
+
+	                                	<select data-conv-question="Would you like to connect with her?" name="f33">
+	                                    <option value="Yes">Yes</option>
+	                                    <option value="No">No</option>
+	                                	</select>
+
+	                                	<div data-conv-fork="f33">		
+	                                		<div data-conv-case="Yes">
+	                                		<input type="text" data-conv-question="Great!!!" data-no-answer="true">
+	                                		<input type="text" data-conv-question="Kindly share your Email ID. Yogita will contact you as soon as possible.">
+	                                		<input type="text" data-conv-question="Thanks for sharing the details." data-no-answer="true">
+	                                		<input type="text" data-conv-question="I felt very nice talking to you. I am always available for any concerns/issues that you might be facing. Don’t hesitate to come back again." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Have a Nice Day." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Bye!👋">
+	                                		</div>
+
+	                                		<div data-conv-case="No">
+	                                		<input type="text" data-conv-question="That's not a problem." data-no-answer="true">
+	                                		<input type="text" data-conv-question="It was nice talking to you." data-no-answer="true">
+	                                		<input type="text" data-conv-question="I am always available for any concerns/issues that you might be facing. Don’t hesitate to come back again." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Have a Nice Day." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Bye!👋">
+	                                		</div>
+
+	                                	</div>
+	                                	</div>
+
+	
+	                                	<div data-conv-case="Neutral">
+	                                		<input type="text" data-conv-question="I would like you to connect with our office coach." data-no-answer="true">
+	                                		<input type="text" data-conv-question="I am recommending you our professional, Yogita." data-no-answer="true">
+	                                		<input type="text" data-conv-question="She can resolve some of your problems." data-no-answer="true">
+
+
+	                                	<select data-conv-question="Would you like to connect with her?" name="f34">
+	                                    <option value="Yes">Yes</option>
+	                                    <option value="No">No</option>
+	                                	</select>
+
+	                                	<div data-conv-fork="f34">		
+	                                		<div data-conv-case="Yes">
+	                                		<input type="text" data-conv-question="Great!!!" data-no-answer="true">
+	                                		<input type="text" data-conv-question="Kindly share your Email ID. Yogita will contact you as soon as possible.">
+	                                		<input type="text" data-conv-question="Thanks for sharing the details." data-no-answer="true">
+	                                		<input type="text" data-conv-question="I felt very nice talking to you. I am always available for any concerns/issues that you might be facing. Don’t hesitate to come back again." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Have a Nice Day." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Bye!👋">
+	                                		</div>
+
+	                                		<div data-conv-case="No">
+	                                		<input type="text" data-conv-question="That's not a problem." data-no-answer="true">
+	                                		<input type="text" data-conv-question="It was nice talking to you." data-no-answer="true">
+	                                		<input type="text" data-conv-question="I am always available for any concerns/issues that you might be facing. Don’t hesitate to come back again." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Have a Nice Day." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Bye!👋">
+	                                		</div>
+
+	                                	</div>
+	                                	</div>
+		
+	                                	<div data-conv-case="Great">
+	                                		<input type="text" data-conv-question="Nice..." data-no-answer="true">
+	                                		<input type="text" data-conv-question="I would like to enable you with more efficient AI tools." data-no-answer="true">
+
+	                                	<select data-conv-question="Would you like to share you Email ID to know more about them?" name="f35">
+	                                    <option value="Yes">Yes</option>
+	                                    <option value="No">No</option>
+	                                	</select>
+
+	                                	<div data-conv-fork="f35">		
+	                                		<div data-conv-case="Yes">
+	                                		<input type="text" data-conv-question="Great!!!" data-no-answer="true">
+	                                		<input type="text" data-conv-question="Kindly share your Email ID. Our representative will get back to you.">
+	                                		<input type="text" data-conv-question="Thanks for sharing the details." data-no-answer="true">
+	                                		<input type="text" data-conv-question="I felt very nice talking to you. I am always available for any concerns/issues that you might be facing. Don’t hesitate to come back again." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Have a Nice Day." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Bye!👋">
+	                                	</div>
+
+	                                	<div data-conv-case="No">
+	                                		<input type="text" data-conv-question="That's not a problem." data-no-answer="true">
+	                                		<input type="text" data-conv-question="It was nice talking to you." data-no-answer="true">
+	                                		<input type="text" data-conv-question="I am always available for any concerns/issues that you might be facing. Don’t hesitate to come back again." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Have a Nice Day." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Bye!👋">
+	                                	</div>
+
+	                                	</div>
+	                                	</div>
+		
+	                                	<div data-conv-case="Awesome">
+	                                		<input type="text" data-conv-question="Nice..." data-no-answer="true">
+	                                		<input type="text" data-conv-question="I would like to enable you with more efficient AI tools." data-no-answer="true">
+
+	                                	<select data-conv-question="Would you like to share you Email ID to know more about them?" name="f36">
+	                                    <option value="Yes">Yes</option>
+	                                    <option value="No">No</option>
+	                                	</select>
+
+	                                	<div data-conv-fork="f36">		
+	                                		<div data-conv-case="Yes">
+	                                		<input type="text" data-conv-question="Great!!!" data-no-answer="true">
+	                                		<input type="text" data-conv-question="Kindly share your Email ID. Our representative will get back to you.">
+	                                		<input type="text" data-conv-question="Thanks for sharing the details." data-no-answer="true">
+	                                		<input type="text" data-conv-question="I felt very nice talking to you. I am always available for any concerns/issues that you might be facing. Don’t hesitate to come back again." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Have a Nice Day." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Bye!👋">
+	                                		</div>
+
+	                                		<div data-conv-case="No">
+	                                		<input type="text" data-conv-question="That's not a problem." data-no-answer="true">
+	                                		<input type="text" data-conv-question="It was nice talking to you." data-no-answer="true">
+	                                		<input type="text" data-conv-question="I am always available for any concerns/issues that you might be facing. Don’t hesitate to come back again." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Have a Nice Day." data-no-answer="true">
+	                                		<input type="text" data-conv-question="Bye!👋">
+	                                		</div>
+
+	                                	</div>
+	                                	</div>
+	                                </div>
+
+	                                	
+	                            </div>
+
+	                            </form>
+	                        </div>
+	                    </div>
+
+	                								
+
+
+
+
+
+
+
+
+
+
+
+	            </div>
+
+	        </div>
+
+	    </div>
+
+	</section>
+
+
+			<script src="../js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="../js/popper.min.js"></script>
+			<script src="../js/vendor/bootstrap.min.js"></script>			
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>			
+  			<script src="../js/easing.min.js"></script>			
+			<script src="../js/hoverIntent.js"></script>
+			<script src="../js/superfish.min.js"></script>	
+			<script src="../js/jquery.ajaxchimp.min.js"></script>
+			<script src="../js/jquery.magnific-popup.min.js"></script>	
+    		<script src="../js/jquery.tabs.min.js"></script>						
+			<script src="../js/jquery.nice-select.min.js"></script>	
+            <script src="../js/isotope.pkgd.min.js"></script>			
+			<script src="../js/waypoints.min.js"></script>
+			<script src="../js/jquery.counterup.min.js"></script>
+			<script src="../js/simple-skillbar.js"></script>							
+			<script src="../js/owl.carousel.min.js"></script>							
+			<script src="../js/mail-script.js"></script>	
+			<script src="../js/main.js"></script>	
+			<script src="../js/plugins/animate-headline.js"></script>
+			<script src="../js/plugins/main.js"></script>
+
+			<script src="../js/plugins/slick.min.js"></script>
+
+
+
+
+
+
+	<script type="text/javascript" src="jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="dist/autosize.min.js"></script>
+	<script type="text/javascript" src="dist/jquery.convform.js"></script>
+
+	<script>
+		function google() {
+			window.open("https://google.com");
+		}
+		function bing() {
+			window.open("https://bing.com");
+		}
+		var rollbackTo = false;
+		var originalState = false;
+		function storeState(stateWrapper) {
+			rollbackTo = stateWrapper.current;
+			console.log("storeState called: ",rollbackTo);
+		}
+		function rollback(stateWrapper) {
+			console.log("rollback called: ", rollbackTo, originalState);
+			console.log("answers at the time of user input: ", stateWrapper.answers);
+			if(rollbackTo!=false) {
+				if(originalState==false) {
+					originalState = stateWrapper.current.next;
+						console.log('stored original state');
+				}
+				stateWrapper.current.next = rollbackTo;
+				console.log('changed current.next to rollbackTo');
+			}
+		}
+		function restore(stateWrapper) {
+			if(originalState != false) {
+				stateWrapper.current.next = originalState;
+				console.log('changed current.next to originalState');
+			}
+		}
+	</script>
+	<script>
+		jQuery(function($){
+			var convForm = $('#chat').convform();
+			console.log(convForm);
+		});
+	</script>
+</body>
+</html>
